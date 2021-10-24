@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1194px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.header__search-form {
+  margin-left: 76px;
+  background: rgba(238, 238, 238, 0.71);
+  border-radius: 10px;
+  display: flex;
+  max-width: 620px;
+  flex-grow: 1; /* поиск растягивается на всю ширину */
+  position: relative;
+}
+
+.header__search-input {
+  background: transparent;
+  border: none;
+  width: 100%;
+  padding: 13px 20px;
+}
+
+.header__search-button {
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%; /* выравнивает по центру инпута */
+  padding-right: 18px;
+  padding-left: 18px;
+  cursor: pointer;
+}
+
+.header__auth {
+  margin-left: auto;
+  display: flex;
+}
+
+.header__login {
+  background: #ebebeb;
+  border-radius: 50px;
+  padding: 16px 30px;
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.header__logo-img {
+  width: 128px;
+}
+
+.header__shopping-cart {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  background: #f66a15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  text-decoration: none;
+  position: relative;
+}
+
+.header__cart-counter {
+  font-size: 8px;
+  line-height: 9px;
+  color: #000000;
+  background: #ffaf19;
+  display: block;
+  padding: 5px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
