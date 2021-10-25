@@ -107,6 +107,26 @@ body {
   position: relative;
 }
 
+.swiper {
+  position: relative;
+}
+
+.slider-buttons {
+  position: absolute;
+  right: 46px;
+  bottom: 40px;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.slider-button-next,
+.slider-button-prev {
+  cursor: pointer;
+}
+
 .main__slide-text-light {
   background-color: grey;
   color: #fff;
@@ -149,6 +169,18 @@ body {
 }
 .main__slide-summer {
   background-image: url("../img/summer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main__slide-winter {
+  background-image: url("../img/winter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main__slide-autumn {
+  background-image: url("../img/autumn.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -364,6 +396,7 @@ body {
   border-radius: 20px;
   overflow: hidden;
   margin: 18.5px;
+  background: #fff;
 }
 .main__tabs-card-image {
   max-width: 100%;
@@ -511,4 +544,75 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 1260px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .header__search-form {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .main__tabs-content {
+    flex-wrap: wrap;
+  }
+  .main__tabs-card {
+    flex: 50%;
+    max-width: calc(49% - 30px);
+  }
+  .main__benefits-cards {
+    flex-wrap: wrap;
+  }
+  .main__benefits-card {
+    flex: 50%;
+    max-width: calc(49% - 30px);
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  .main__slide {
+    padding: 70px;
+  }
+  .main__delivery-card {
+    width: calc(50% - 30px);
+  }
+  .footer__logo {
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 560px;
+  }
+  .header {
+    flex-wrap: wrap;
+  }
+  .header__search-form {
+    order: 5;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .promo {
+    flex-wrap: wrap;
+  }
+  .main__tabs-card {
+    max-width: calc(45% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 95%;
+  }
+  .main__tabs-card {
+    max-width: 100%;
+  }
 }
