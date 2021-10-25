@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -63,8 +63,8 @@
         </a>
       </div>
     </header>
-    <main class="container">
-      <div class="main__slider">
+    <main class="main">
+      <div class="main__slider container">
         <div class="main__slide main__slide-text-light main__slide-summer">
           <div class="main__slide-content">
             <h2 class="main__slide-title">Неделя летних овощей</h2>
@@ -78,44 +78,375 @@
           </div>
         </div>
       </div>
-      <div class="promo">
-        <section class="main__card main__card-text-light main__sweet-basket">
-          <img
-            src="./img/sweet-basket.png"
-            alt="sweet-basket: png"
-            class="main__card-image"
-          />
-          <div class="main__card-header">
-            <h3 class="main__card-title">Сладкая корзина</h3>
-            <p class="card-text">
-              Произвольный выбор десертов по Вашему желанию.
-            </p>
-          </div>
-          <div class="main__card-footer">
-            <strong class="main__card-price">ОТ 1 300 ₽</strong>
-            <span class="main__card-delivery">стоимость доставки до 200 ₽</span>
-            <a href="#" class="button main__button-default">Собрать корзину</a>
-          </div>
-        </section>
-        <section class="main__card main__card-text-light main__sweet-basket">
-          <img
-            src="./img/salad.png"
-            alt="sweet-basket: png"
-            class="main__card-image"
-          />
-          <div class="main__card-header">
-            <h3 class="main__card-title">Минимум усилий</h3>
-            <p class="card-text">
-              Произвольный выбор продуктов по Вашему желанию.
-            </p>
-          </div>
-          <div class="main__card-footer">
-            <strong class="main__card-price">ОТ 700 ₽</strong>
-            <span class="main__card-delivery">стоимость доставки до 200 ₽</span>
-            <a href="#" class="button main__button-default">Собрать корзину</a>
-          </div>
-        </section>
+      <div class="container">
+        <div class="promo">
+          <section class="main__card main__card-text-light main__sweet-basket">
+            <img
+              src="./img/sweet-basket.png"
+              alt="sweet-basket: png"
+              class="main__card-image"
+            />
+            <div class="main__card-header">
+              <h3 class="main__card-title">Сладкая корзина</h3>
+              <p class="card-text">
+                Произвольный выбор десертов по Вашему желанию.
+              </p>
+            </div>
+            <div class="main__card-footer">
+              <strong class="main__card-price">ОТ 1 300 ₽</strong>
+              <span class="main__card-delivery"
+                >стоимость доставки до 200 ₽</span
+              >
+              <a href="#" class="button main__button-default"
+                >Собрать корзину</a
+              >
+            </div>
+          </section>
+          <section class="main__card main__card-text-light main__sweet-basket">
+            <img
+              src="./img/salad.png"
+              alt="sweet-basket: png"
+              class="main__card-image"
+            />
+            <div class="main__card-header">
+              <h3 class="main__card-title">Минимум усилий</h3>
+              <p class="card-text">
+                Произвольный выбор продуктов по Вашему желанию.
+              </p>
+            </div>
+            <div class="main__card-footer">
+              <strong class="main__card-price">ОТ 700 ₽</strong>
+              <span class="main__card-delivery"
+                >стоимость доставки до 200 ₽</span
+              >
+              <a href="#" class="button main__button-default"
+                >Собрать корзину</a
+              >
+            </div>
+          </section>
+        </div>
       </div>
+      <section class="main__delivery-week container">
+        <h2 class="main__week-title">Доставка готовой еды на неделю</h2>
+        <div class="main__delivery-cards">
+          <div class="main__delivery-card">
+            <img
+              src="./img/cards/card-1.png"
+              alt="card-1: png"
+              class="main__delivery-image"
+            />
+            <span class="main__delivery-tag delivery-tag__health">ЗОЖ</span>
+          </div>
+          <div class="main__delivery-card">
+            <img
+              src="./img/cards/card-2.png"
+              alt="card-2: png"
+              class="main__delivery-image"
+            />
+            <span class="main__delivery-tag delivery-tag__vegetable"
+              >Овощное</span
+            >
+          </div>
+          <div class="main__delivery-card">
+            <img
+              src="./img/cards/card-3.png"
+              alt="card-3: png"
+              class="main__delivery-image"
+            />
+            <span class="main__delivery-tag delivery-tag__meat">Мясное</span>
+          </div>
+          <div class="main__delivery-card">
+            <img
+              src="./img/cards/card-4.png"
+              alt="card-4: png"
+              class="main__delivery-image"
+            />
+            <span class="main__delivery-tag delivery-tag__bird">Птица</span>
+          </div>
+          <div class="main__delivery-card">
+            <img
+              src="./img/cards/card-5.png"
+              alt="card-5: png"
+              class="main__delivery-image"
+            />
+            <span class="main__delivery-tag delivery-tag__fish">Рыбное</span>
+          </div>
+          <div class="main__delivery-card">
+            <img
+              src="./img/cards/card-6.png"
+              alt="card-1: png"
+              class="main__delivery-image"
+            />
+            <span class="main__delivery-tag delivery-tag__kids">Детское</span>
+          </div>
+          <div class="main__delivery-card">
+            <img
+              src="./img/cards/card-7.png"
+              alt="card-7: png"
+              class="main__delivery-image"
+            />
+            <span class="main__delivery-tag delivery-tag__parents"
+              >Родителям</span
+            >
+          </div>
+          <div class="main__delivery-card">
+            <img
+              src="./img/cards/card-8.png"
+              alt="card-8: png"
+              class="main__delivery-image"
+            />
+            <span class="main__delivery-tag delivery-tag__holidays"
+              >Праздничное</span
+            >
+          </div>
+        </div>
+      </section>
+      <section class="main__section-grey main__category">
+        <div class="container">
+          <h2 class="main__section-title">Категории блюд</h2>
+          <ul class="main__tabs-list">
+            <li class="main__tabs-item">
+              <a href="" class="main__tabs-link active">Популярные блюда</a>
+            </li>
+            <li class="main__tabs-item">
+              <a href="" class="main__tabs-link">Овощное</a>
+            </li>
+            <li class="main__tabs-item">
+              <a href="" class="main__tabs-link">Мясное</a>
+            </li>
+          </ul>
+          <div class="main__tabs-content">
+            <div class="main__tabs-card">
+              <img
+                src="./img/tabs-image.png"
+                alt="tabs-1: png"
+                class="main__tabs-card-image"
+              />
+              <div class="main__tabs-card-content">
+                <h3 class="main__tabs-card-title">
+                  Куриные крылья под соусом Терияки
+                </h3>
+                <p class="main__tabs-card-description">
+                  Соус Терияки придумали повора из Японии. По традиции его
+                  используют в качестве маринада для...
+                </p>
+                <div class="main__tabs-card-info">
+                  <div class="main__tabs-card-good">
+                    <span class="main__tabs-card-price">260 ₽</span>
+                    <span class="main__tabs-card-weight">500 гр</span>
+                  </div>
+                  <button class="button button-outline">В корзину</button>
+                </div>
+              </div>
+            </div>
+            <div class="main__tabs-card">
+              <img
+                src="./img/tabs-image.png"
+                alt="tabs-1: png"
+                class="main__tabs-card-image"
+              />
+              <div class="main__tabs-card-content">
+                <h3 class="main__tabs-card-title">
+                  Куриные крылья под соусом Терияки
+                </h3>
+                <p class="main__tabs-card-description">
+                  Соус Терияки придумали повора из Японии. По традиции его
+                  используют в качестве маринада для...
+                </p>
+                <div class="main__tabs-card-info">
+                  <div class="main__tabs-card-good">
+                    <span class="main__tabs-card-price">260 ₽</span>
+                    <span class="main__tabs-card-weight">500 гр</span>
+                  </div>
+                  <button class="button button-outline">В корзину</button>
+                </div>
+              </div>
+            </div>
+            <div class="main__tabs-card">
+              <img
+                src="./img/tabs-image.png"
+                alt="tabs-1: png"
+                class="main__tabs-card-image"
+              />
+              <div class="main__tabs-card-content">
+                <h3 class="main__tabs-card-title">
+                  Куриные крылья под соусом Терияки
+                </h3>
+                <p class="main__tabs-card-description">
+                  Соус Терияки придумали повора из Японии. По традиции его
+                  используют в качестве маринада для...
+                </p>
+                <div class="main__tabs-card-info">
+                  <div class="main__tabs-card-good">
+                    <span class="main__tabs-card-price">260 ₽</span>
+                    <span class="main__tabs-card-weight">500 гр</span>
+                  </div>
+                  <button class="button button-outline">В корзину</button>
+                </div>
+              </div>
+            </div>
+            <div class="main__tabs-card">
+              <img
+                src="./img/tabs-image.png"
+                alt="tabs-1: png"
+                class="main__tabs-card-image"
+              />
+              <div class="main__tabs-card-content">
+                <h3 class="main__tabs-card-title">
+                  Куриные крылья под соусом Терияки
+                </h3>
+                <p class="main__tabs-card-description">
+                  Соус Терияки придумали повора из Японии. По традиции его
+                  используют в качестве маринада для...
+                </p>
+                <div class="main__tabs-card-info">
+                  <div class="main__tabs-card-good">
+                    <span class="main__tabs-card-price">260 ₽</span>
+                    <span class="main__tabs-card-weight">500 гр</span>
+                  </div>
+                  <button class="button button-outline">В корзину</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="button button-outline button-center">
+            Больше блюд
+          </button>
+        </div>
+      </section>
+      <section class="main__benefits">
+        <div class="container">
+          <h2 class="main__benefits-title">Наши преимущества</h2>
+          <div class="main__benefits-cards">
+            <div class="main__benefits-card">
+              <img
+                src="./img/benefits-1.png"
+                alt="ben-1: png"
+                class="main__benefits-card-image"
+              />
+              <h3 class="main__benefits-card-title">
+                Какой путь проходит ваша еда
+              </h3>
+              <p class="main__benefits-card-text">
+                Вы делаете заказ на коробку с недельным запасом полуфабрикатов и
+                готовых блюд для всей семьи
+              </p>
+            </div>
+            <div class="main__benefits-card">
+              <img
+                src="./img/benefits-2.png"
+                alt="ben-2: png"
+                class="main__benefits-card-image"
+              />
+              <h3 class="main__benefits-card-title">
+                Как происходит производство
+              </h3>
+              <p class="main__benefits-card-text">
+                За день до доставки мы сами готовим блюда из натуральных
+                продуктов без консервантов, красителей и гмо
+              </p>
+            </div>
+            <div class="main__benefits-card">
+              <img
+                src="./img/benefits-3.png"
+                alt="ben-3: png"
+                class="main__benefits-card-image"
+              />
+              <h3 class="main__benefits-card-title">
+                Высокие стандарты качества
+              </h3>
+              <p class="main__benefits-card-text">
+                Наши повара с многолетним опытом с любовью готовят каждую порцию
+                блюда
+              </p>
+            </div>
+            <div class="main__benefits-card">
+              <img
+                src="./img/benefits-4.png"
+                alt="ben-4: png"
+                class="main__benefits-card-image"
+              />
+              <h3 class="main__benefits-card-title">
+                Быстрая и качественная доставка
+              </h3>
+              <p class="main__benefits-card-text">
+                Сами доставим всё прямов в вашу морозилку, сохранив
+                температурный режим и качество наших блюд
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <img src="./img/logo.png" alt="logo: png" class="footer__logo" />
+          <nav class="footer__nav">
+            <a href="#" class="footer__link">Доставка и оплата</a>
+            <a href="#" class="footer__link">Напишите нам </a>
+          </nav>
+          <div class="footer__social-links">
+            <a href="#" class="footer__social-link"
+              ><svg
+                width="17"
+                height="14"
+                viewBox="0 0 17 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.11017 8.96745L6.84861 12.7514C7.22283 12.7514 7.3849 12.5861 7.57926 12.3875L9.33375 10.6629L12.9692 13.4013C13.636 13.7835 14.1057 13.5822 14.2856 12.7704L16.6719 1.26942L16.6726 1.26874C16.884 0.254987 16.3161 -0.141434 15.6665 0.107261L1.63983 5.63073C0.682532 6.01292 0.697027 6.56182 1.47709 6.81051L5.06315 7.95776L13.3929 2.59692C13.7849 2.32993 14.1413 2.47766 13.8481 2.74465L7.11017 8.96745Z"
+                  fill="black"
+                />
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link"
+              ><svg
+                width="16"
+                height="9"
+                viewBox="0 0 16 9"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_25:266)">
+                  <path
+                    d="M13.2771 5.16086C13.0185 4.84586 13.0925 4.70571 13.2771 4.42414C13.2805 4.42093 15.4159 1.57564 15.6359 0.610714L15.6372 0.610071C15.7465 0.258428 15.6372 0 15.1085 0H13.3591C12.9138 0 12.7084 0.221786 12.5984 0.469929C12.5984 0.469929 11.7077 2.52579 10.4477 3.85843C10.041 4.2435 9.85301 4.36693 9.631 4.36693C9.52166 4.36693 9.35166 4.2435 9.35166 3.89186V0.610071C9.35166 0.188357 9.22699 0 8.85831 0H6.10754C5.8282 0 5.6622 0.196714 5.6622 0.379929C5.6622 0.779786 6.29222 0.871714 6.35755 1.99671V4.43764C6.35755 4.9725 6.25688 5.07086 6.03354 5.07086C5.43886 5.07086 3.99547 3.00664 3.14011 0.644143C2.96744 0.185786 2.79876 0.000642811 2.35008 0.000642811H0.600021C0.10067 0.000642811 0 0.222428 0 0.470571C0 0.909 0.594687 3.08893 2.76543 5.96893C4.21215 7.93479 6.24955 9 8.10295 9C9.21699 9 9.35299 8.76343 9.35299 8.3565C9.35299 6.47807 9.25232 6.30064 9.81034 6.30064C10.069 6.30064 10.5144 6.42407 11.5544 7.37229C12.7431 8.49664 12.9384 9 13.6038 9H15.3532C15.8519 9 16.1046 8.76343 15.9592 8.29671C15.6265 7.31507 13.3785 5.29586 13.2771 5.16086Z"
+                    fill="black"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_25:266">
+                    <rect width="16" height="9" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link"
+              ><svg
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.0648 0.466797H5.73859C2.82751 0.466797 0.466797 2.82751 0.466797 5.73859V12.0648C0.466797 14.9758 2.82751 17.3365 5.73859 17.3365H12.0648C14.9758 17.3365 17.3365 14.9758 17.3365 12.0648V5.73859C17.3365 2.82751 14.9758 0.466797 12.0648 0.466797ZM15.755 12.0648C15.755 14.0997 14.0997 15.755 12.0648 15.755H5.73859C3.70368 15.755 2.04834 14.0997 2.04834 12.0648V5.73859C2.04834 3.70368 3.70368 2.04834 5.73859 2.04834H12.0648C14.0997 2.04834 15.755 3.70368 15.755 5.73859V12.0648Z"
+                  fill="black"
+                />
+                <path
+                  d="M8.90152 4.68408C6.57244 4.68408 4.68408 6.57244 4.68408 8.90152C4.68408 11.2306 6.57244 13.119 8.90152 13.119C11.2306 13.119 13.119 11.2306 13.119 8.90152C13.119 6.57244 11.2306 4.68408 8.90152 4.68408ZM8.90152 11.5374C7.44861 11.5374 6.26562 10.3544 6.26562 8.90152C6.26562 7.44756 7.44861 6.26562 8.90152 6.26562C10.3544 6.26562 11.5374 7.44756 11.5374 8.90152C11.5374 10.3544 10.3544 11.5374 8.90152 11.5374Z"
+                  fill="black"
+                />
+                <path
+                  d="M13.4355 4.9301C13.7459 4.9301 13.9975 4.6785 13.9975 4.36813C13.9975 4.05776 13.7459 3.80615 13.4355 3.80615C13.1251 3.80615 12.8735 4.05776 12.8735 4.36813C12.8735 4.6785 13.1251 4.9301 13.4355 4.9301Z"
+                  fill="black"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
